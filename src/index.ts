@@ -1,5 +1,3 @@
-export function foo() {
-}
+export function foo() {}
 
-export class Bar {
-}
+export class Bar {}
