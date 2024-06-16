@@ -1,5 +1,7 @@
 *~
-node_modules
+.idea
 .log
 .nyc_output
+build
 coverage
+node_modules
