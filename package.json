@@ -1,5 +1,6 @@
 {
   "name": "typescript-template",
+  "private": true,
   "version": "1.0.0",
   "description": "A basic typescript project template, e.g. for code retreats",
   "main": "index.js",
@@ -17,12 +18,12 @@
     "@biomejs/biome": "1.8.1",
     "@tsconfig/recommended": "^1.0.6",
     "@types/chai": "^4.2.18",
-    "@types/mocha": "^8.2.2",
-    "@types/node": "^15.12.2",
-    "chai": "^4.3.4",
-    "mocha": "^9.0.0",
-    "nyc": "^15.1.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.14.2",
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "nyc": "^17.0.0",
     "ts-node": "^10.0.0",
-    "typescript": "^4.3.2"
+    "typescript": "^5.4.5"
   }
 }
