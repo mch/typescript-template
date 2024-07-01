@@ -12,4 +12,4 @@ This is a minimal template project for TypeScript development, e.g. for use in a
 ## Default Tools
 - [Mocha](https://mochajs.org/) is used as the test runner.
 - [Chai](https://www.chaijs.com/) is used for assertions.
-- [Prettier](https://prettier.io/) is available to standardize code style.
+- [Biome](https://biomejs.dev/) is available for code style and linting.
