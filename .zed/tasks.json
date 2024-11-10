@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Run mocha test",
+    "command": "npx mocha --fgrep '$ZED_SYMBOL' '$ZED_FILE'",
+    "tags": ["ts-test"],
+    "env": {
+      "NODE_NO_WARNINGS": "1"
+    }
+  }
+]
