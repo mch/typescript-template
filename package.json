@@ -3,11 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "description": "A basic typescript project template, e.g. for code retreats",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "mocha",
-    "watch": "mocha -w",
+    "test": "NODE_NO_WARNINGS=1 mocha",
+    "watch": "NODE_NO_WARNINGS=1 mocha -w",
     "checkstyle": "biome check",
     "pretty": "biome check --write"
   },
